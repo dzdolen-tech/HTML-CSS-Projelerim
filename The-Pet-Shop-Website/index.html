@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pet Shop | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>The Pet Shop</h1>
+        <p>Everything your best friend needs, all in one place.</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Store</h2>
+            <p>Welcome to The Pet Shop! We are dedicated to providing the best supplies for your pets in Canada. From high-quality food to fun toys, we have it all.</p>
+            <!-- Resim dosyanın adının "imaje.jpg" olduğundan emin ol -->
+            <img src="imaje.jpg" alt="A happy dog playing with toys" width="600">
+        </section>
+
+        <hr>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Grooming:</strong> Keep your pet looking their best.</li>
+                <li><strong>Training:</strong> Basic and advanced obedience classes.</li>
+                <li><strong>Supplies:</strong> Premium food and accessories.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="video">
+            <h2>Learn About Pet Care</h2>
+            <p>Watch our featured video on how to take care of your new puppy:</p>
+            <!-- VIDEO LINKI DÜZELTİLDİ -->
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/B51t0D4UPxY" 
+                title="Pet Care Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 The Pet Shop Website Assignment | Developed by Mehmet</p>
+    </footer>
+
+</body>
+</html>
