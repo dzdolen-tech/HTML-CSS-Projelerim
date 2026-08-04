@@ -23,5 +23,6 @@ Welcome to my project repository for my technical web development course. Below 
 
 * **Description:** A clean, easy-to-read recipe page utilizing modern CSS layouts and typography.
 * **Tech Used:** HTML5, CSS3
-* Writing: /github/workspace/\_site/index.html
+
+
 
