@@ -1,3 +1,0 @@
-# _config.yml
-readme_index:
-  enabled: false
