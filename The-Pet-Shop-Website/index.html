@@ -74,6 +74,17 @@
     <footer>
         <p>&copy; 2026 The Pet Shop Website Assignment | Developed by Mehmet</p>
     </footer>
+<!-- Gallery Images Section -->
+<div class="gallery">
+  <img src="image1.jpg" alt="Description 1" onclick="openLightbox(this.src, this.alt)">
+  <img src="image2.jpg" alt="Description 2" onclick="openLightbox(this.src, this.alt)">
+</div>
 
+<!-- Lightbox Modal -->
+<div id="lightboxModal" class="lightbox" onclick="closeLightbox()">
+  <span class="close-btn">&times;</span>
+  <img class="lightbox-content" id="lightboxImg" alt="Enlarged view">
+  <div id="caption"></div>
+</div>
 </body>
 </html>
